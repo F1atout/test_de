@@ -1,0 +1,18 @@
+[user@server ~]$ chmod +x analyze_logs.sh
+[user@server ~]$ ./analyze_logs.sh
+Отчет успешно создан в файле report.txt
+[user@server ~]$ cat report.txt
+Отчет анализа логов
+
+1. Общее количество запросов:
+6
+
+2. Количество уникальных IP-адресов:
+4
+
+3. Количество запросов по методам:
+GET: 5
+POST: 1
+
+4. Самый популярный URL:
+/index.html: 3 запросов
